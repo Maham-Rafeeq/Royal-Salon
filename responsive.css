@@ -1,0 +1,280 @@
+@media(max-width:1120px) {
+    .appointment {
+        height: 80vh;
+    }
+
+    .testamonials-main {
+        width: 90%;
+    }
+
+    .footer-main {
+        width: 90%;
+    }
+
+    .about-section-main {
+        width: 90%;
+    }
+
+    .part4 {
+        width: 20%;
+
+    }
+
+    .part4 .email-box {
+        flex-direction: column;
+    }
+
+    .part4 .email-box button {
+        margin-inline: auto;
+    }
+
+
+    /* 1250pxx */
+}
+
+@media (max-width:1250px) {
+    .about-section-main {
+        width: 90%;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            padding: 0 20px;
+        }
+
+        .nav-links {
+            display: none;
+        }
+
+        .hamburger {
+            display: flex;
+        }
+
+        .hero-text h2 {
+            font-size: 30px;
+        }
+
+        .hero-image img {
+            width: 80%;
+        }
+
+        .services {
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .tabs {
+            justify-content: flex-start;
+            padding: 0 16px;
+            overflow-x: auto;
+        }
+
+        .tab {
+            padding: 12px 24px;
+        }
+
+        .team-row {
+            flex-wrap: wrap;
+        }
+
+        .team-box {
+            width: calc(50% - 20px);
+        }
+
+        .feature-box {
+            width: 46%;
+        }
+
+        .section-heading {
+            font-size: 24px;
+        }
+    }
+
+    @media(min-width:300px) and (max-width:992px) {
+        .about-section-main {
+            width: 90%;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .about-section-left {
+            width: 80%;
+        }
+
+        .about-section-right {
+            width: 80%;
+            text-align: center;
+        }
+
+        .appointment {
+            height: auto;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        .appointment-right {
+            width: 100%;
+        }
+
+        .appointment-left {
+            width: 100%;
+        }
+
+        .testamonials-main .testamonials-cards {
+            grid-template-columns: 1fr;
+        }
+
+        .footer-main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .part4 {
+            width: 100%;
+        }
+
+        .copy-right .para {
+            text-align: center;
+        }
+
+        .copy-right .links ul {
+            display: none;
+        }
+
+        .hero-content {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+        .hero-text h2 {
+            font-size: 40px;
+        }
+
+        .hero-image img {
+            width: 60%;
+        }
+
+        .feature-box {
+            width: 46%;
+        }
+
+        .team-row {
+            flex-wrap: wrap;
+        }
+    }
+
+}
+
+/* 576pxxxxxx */
+@media(max-width:576px) {
+    h1{
+        font-size: 2rem;
+    }
+    .about-section-main {
+        width: 90%;
+    }
+
+    .about-image-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .about-img2 img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .about-img3 {
+        justify-self: auto;
+    }
+
+    .about-img3 img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .about-section-right .experiance-flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-section-right .experience {
+        padding-left: 20px;
+        text-align: left;
+        width: 70%;
+    }
+
+    .appointment-right .input {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+        margin-inline: auto;
+    }
+
+    .part1 {
+        margin-inline: auto;
+    }
+
+    .part2 {
+        text-align: center;
+        margin-inline: auto;
+
+    }
+
+    .part2 .Contact-icons {
+        justify-content: center;
+    }
+
+    .part2 .icons {
+        justify-content: center;
+    }
+
+    .copy-right .para {
+        text-align: center;
+    }
+        .part4 .email-box{
+            margin-inline: auto;
+        }
+        .hero-text h1 {
+            font-size: 30px;
+        }
+    .hero-text h2 {
+        font-size: 24px;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .feature-box {
+        width: 100%;
+    }
+
+    .team-box {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .team-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab {
+        padding: 10px 16px;
+    }
+
+    .tab h4 {
+        font-size: 14px;
+    }
+
+    .tab .tab-icon {
+        font-size: 20px;
+    }
+}
